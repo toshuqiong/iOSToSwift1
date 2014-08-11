@@ -43,6 +43,7 @@ class ViewController: UIViewController {
         button1.addTarget(self, action: "toggleActivityIndicator", forControlEvents: .TouchUpInside)
         
         self.view.addSubview(button1)
+
         
         let loadingCircle1 = LoadingCircle(radius: 30)
         self.view.layer.addSublayer(loadingCircle1)
@@ -96,6 +97,14 @@ class ViewController: UIViewController {
         windowview!.hidden = false
         activityIndicator!.frame = CGRectMake(0, 0, 320, 20)
         windowview!.addSubview(activityIndicator)
+        
+        let nextControllerButton = UIButton.buttonWithType(.System) as UIButton
+        nextControllerButton.frame = CGRectMake(100, 40, 120, 40)
+        nextControllerButton.titleLabel.font = UIFont.systemFontOfSize(15)
+        nextControllerButton.setTitle("next", forState: .Normal)
+        nextControllerButton.addTarget(self, action: "pushController:", forControlEvents: .TouchUpInside)
+        
+        self.view.addSubview(nextControllerButton)
     }
 
     override func didReceiveMemoryWarning() {
@@ -126,6 +135,12 @@ class ViewController: UIViewController {
         }
         activityIndicator!.addDotView()
         ++dotCount
+    }
+    
+    func pushController(sender: UIButton) {
+        let controller = ViewController1()
+        controller.title = "SECOND"
+        self.navigationController.pushViewController(controller, animated: true)
     }
 }
 

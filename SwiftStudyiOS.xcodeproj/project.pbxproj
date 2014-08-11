@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		450A765A19946BA800BA3AA0 /* ViewController1.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A765919946BA800BA3AA0 /* ViewController1.swift */; };
+		450A765C19946DB300BA3AA0 /* CustomAlertView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 450A765B19946DB300BA3AA0 /* CustomAlertView.swift */; };
+		450A765E1994B1E500BA3AA0 /* TestView .xib in Resources */ = {isa = PBXBuildFile; fileRef = 450A765D1994B1E500BA3AA0 /* TestView .xib */; };
 		45108E2C1992135600C54C3D /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45108E2B1992135600C54C3D /* AppDelegate.swift */; };
 		45108E2E1992135600C54C3D /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45108E2D1992135600C54C3D /* ViewController.swift */; };
 		45108E331992135600C54C3D /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45108E321992135600C54C3D /* Images.xcassets */; };
@@ -14,6 +17,14 @@
 		452FEB791992252C00EB88E1 /* TopMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FEB781992252C00EB88E1 /* TopMessageView.swift */; };
 		4536AC91199314A800B0B548 /* LoadingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536AC90199314A800B0B548 /* LoadingCircle.swift */; };
 		45B561B71993614F00612602 /* CirActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B561B61993614F00612602 /* CirActivityIndicatorView.swift */; };
+		45C384D019987594002F8E6A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C384CF19987594002F8E6A /* ViewController2.swift */; };
+		45C384D21998910B002F8E6A /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C384D11998910B002F8E6A /* MenuCell.swift */; };
+		45C384DA19989158002F8E6A /* 1HighLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D419989158002F8E6A /* 1HighLight.png */; };
+		45C384DB19989158002F8E6A /* 1Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D519989158002F8E6A /* 1Normal.png */; };
+		45C384DC19989158002F8E6A /* 2HighLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D619989158002F8E6A /* 2HighLight.png */; };
+		45C384DD19989158002F8E6A /* 2Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D719989158002F8E6A /* 2Normal.png */; };
+		45C384DE19989158002F8E6A /* 3HighLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D819989158002F8E6A /* 3HighLight.png */; };
+		45C384DF19989158002F8E6A /* 3Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D919989158002F8E6A /* 3Normal.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -27,6 +38,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		450A765919946BA800BA3AA0 /* ViewController1.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController1.swift; sourceTree = "<group>"; };
+		450A765B19946DB300BA3AA0 /* CustomAlertView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomAlertView.swift; sourceTree = "<group>"; };
+		450A765D1994B1E500BA3AA0 /* TestView .xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = "TestView .xib"; sourceTree = "<group>"; };
 		45108E261992135500C54C3D /* SwiftStudyiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftStudyiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		45108E2A1992135600C54C3D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		45108E2B1992135600C54C3D /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
@@ -38,6 +52,14 @@
 		452FEB781992252C00EB88E1 /* TopMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopMessageView.swift; path = ../TopMessageView.swift; sourceTree = "<group>"; };
 		4536AC90199314A800B0B548 /* LoadingCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCircle.swift; sourceTree = "<group>"; };
 		45B561B61993614F00612602 /* CirActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirActivityIndicatorView.swift; sourceTree = "<group>"; };
+		45C384CF19987594002F8E6A /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
+		45C384D11998910B002F8E6A /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		45C384D419989158002F8E6A /* 1HighLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1HighLight.png; sourceTree = "<group>"; };
+		45C384D519989158002F8E6A /* 1Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 1Normal.png; sourceTree = "<group>"; };
+		45C384D619989158002F8E6A /* 2HighLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2HighLight.png; sourceTree = "<group>"; };
+		45C384D719989158002F8E6A /* 2Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2Normal.png; sourceTree = "<group>"; };
+		45C384D819989158002F8E6A /* 3HighLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3HighLight.png; sourceTree = "<group>"; };
+		45C384D919989158002F8E6A /* 3Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3Normal.png; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -79,13 +101,19 @@
 		45108E281992135500C54C3D /* SwiftStudyiOS */ = {
 			isa = PBXGroup;
 			children = (
+				45C384D319989158002F8E6A /* image */,
 				452FEB781992252C00EB88E1 /* TopMessageView.swift */,
 				4536AC90199314A800B0B548 /* LoadingCircle.swift */,
 				45B561B61993614F00612602 /* CirActivityIndicatorView.swift */,
+				450A765B19946DB300BA3AA0 /* CustomAlertView.swift */,
+				45C384D11998910B002F8E6A /* MenuCell.swift */,
 				45108E2B1992135600C54C3D /* AppDelegate.swift */,
 				45108E2D1992135600C54C3D /* ViewController.swift */,
+				450A765919946BA800BA3AA0 /* ViewController1.swift */,
+				45C384CF19987594002F8E6A /* ViewController2.swift */,
 				45108E321992135600C54C3D /* Images.xcassets */,
 				45108E291992135500C54C3D /* Supporting Files */,
+				450A765D1994B1E500BA3AA0 /* TestView .xib */,
 			);
 			path = SwiftStudyiOS;
 			sourceTree = "<group>";
@@ -113,6 +141,19 @@
 				45108E3D1992135600C54C3D /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45C384D319989158002F8E6A /* image */ = {
+			isa = PBXGroup;
+			children = (
+				45C384D419989158002F8E6A /* 1HighLight.png */,
+				45C384D519989158002F8E6A /* 1Normal.png */,
+				45C384D619989158002F8E6A /* 2HighLight.png */,
+				45C384D719989158002F8E6A /* 2Normal.png */,
+				45C384D819989158002F8E6A /* 3HighLight.png */,
+				45C384D919989158002F8E6A /* 3Normal.png */,
+			);
+			path = image;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,7 +236,14 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				45C384DB19989158002F8E6A /* 1Normal.png in Resources */,
 				45108E331992135600C54C3D /* Images.xcassets in Resources */,
+				45C384DF19989158002F8E6A /* 3Normal.png in Resources */,
+				45C384DA19989158002F8E6A /* 1HighLight.png in Resources */,
+				45C384DD19989158002F8E6A /* 2Normal.png in Resources */,
+				450A765E1994B1E500BA3AA0 /* TestView .xib in Resources */,
+				45C384DE19989158002F8E6A /* 3HighLight.png in Resources */,
+				45C384DC19989158002F8E6A /* 2HighLight.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -213,6 +261,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				450A765A19946BA800BA3AA0 /* ViewController1.swift in Sources */,
+				45C384D019987594002F8E6A /* ViewController2.swift in Sources */,
+				45C384D21998910B002F8E6A /* MenuCell.swift in Sources */,
+				450A765C19946DB300BA3AA0 /* CustomAlertView.swift in Sources */,
 				452FEB791992252C00EB88E1 /* TopMessageView.swift in Sources */,
 				45108E2E1992135600C54C3D /* ViewController.swift in Sources */,
 				4536AC91199314A800B0B548 /* LoadingCircle.swift in Sources */,

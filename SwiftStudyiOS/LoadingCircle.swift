@@ -25,7 +25,12 @@ class LoadingCircle: CALayer {
 
         UIGraphicsPushContext(ctx)
         let dash: CGFloat = CGFloat(M_PI_2) * self.radius
-        let path = UIBezierPath(arcCenter: CGPointMake(CGRectGetWidth(self.frame) / 2, CGRectGetHeight(self.frame) / 2), radius: self.radius, startAngle: 0, endAngle: CGFloat(M_PI) * 2, clockwise: true)
+        let path = UIBezierPath(
+            arcCenter: CGPointMake(CGRectGetWidth(self.frame) / 2, CGRectGetHeight(self.frame) / 2),
+            radius: self.radius,
+            startAngle: 0,
+            endAngle: CGFloat(M_PI) * 2,
+            clockwise: true)
         path.setLineDash([dash * 0.7, dash * 0.3, 3], count: 2, phase: 1)
         path.lineWidth = 6
         path.stroke()
