@@ -15,6 +15,7 @@ class ViewController: UIViewController {
     var addDotTime: NSTimer?
     var dotCount: Int = 1
     var windowview: WindowView?
+    let rangeSlider = RangeSlider(frame: CGRectZero)
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -105,6 +106,15 @@ class ViewController: UIViewController {
         nextControllerButton.addTarget(self, action: "pushController:", forControlEvents: .TouchUpInside)
         
         self.view.addSubview(nextControllerButton)
+        
+        rangeSlider.backgroundColor = UIColor.redColor()
+        view.addSubview(rangeSlider)
+    }
+    
+    override func viewDidLayoutSubviews() {
+        let margin: CGFloat = 20.0
+        let width = view.bounds.width - 2.0 * margin
+        rangeSlider.frame = CGRect(x: margin, y: margin + topLayoutGuide.length, width: width, height: 32.0)
     }
 
     override func didReceiveMemoryWarning() {

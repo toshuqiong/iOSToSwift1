@@ -16,6 +16,7 @@
 		45108E3F1992135600C54C3D /* SwiftStudyiOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45108E3E1992135600C54C3D /* SwiftStudyiOSTests.swift */; };
 		452FEB791992252C00EB88E1 /* TopMessageView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 452FEB781992252C00EB88E1 /* TopMessageView.swift */; };
 		4536AC91199314A800B0B548 /* LoadingCircle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4536AC90199314A800B0B548 /* LoadingCircle.swift */; };
+		4541D0EE19B46E280090C7E9 /* RangeSlider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4541D0ED19B46E280090C7E9 /* RangeSlider.swift */; };
 		45B561B71993614F00612602 /* CirActivityIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45B561B61993614F00612602 /* CirActivityIndicatorView.swift */; };
 		45C384D019987594002F8E6A /* ViewController2.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C384CF19987594002F8E6A /* ViewController2.swift */; };
 		45C384D21998910B002F8E6A /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45C384D11998910B002F8E6A /* MenuCell.swift */; };
@@ -25,6 +26,9 @@
 		45C384DD19989158002F8E6A /* 2Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D719989158002F8E6A /* 2Normal.png */; };
 		45C384DE19989158002F8E6A /* 3HighLight.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D819989158002F8E6A /* 3HighLight.png */; };
 		45C384DF19989158002F8E6A /* 3Normal.png in Resources */ = {isa = PBXBuildFile; fileRef = 45C384D919989158002F8E6A /* 3Normal.png */; };
+		45CB0C201999A931005D9A1E /* demo_1.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45CB0C1D1999A931005D9A1E /* demo_1.jpg */; };
+		45CB0C211999A931005D9A1E /* demo_2.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45CB0C1E1999A931005D9A1E /* demo_2.jpg */; };
+		45CB0C221999A931005D9A1E /* demo_3.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 45CB0C1F1999A931005D9A1E /* demo_3.jpg */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +55,8 @@
 		45108E3E1992135600C54C3D /* SwiftStudyiOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftStudyiOSTests.swift; sourceTree = "<group>"; };
 		452FEB781992252C00EB88E1 /* TopMessageView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TopMessageView.swift; path = ../TopMessageView.swift; sourceTree = "<group>"; };
 		4536AC90199314A800B0B548 /* LoadingCircle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingCircle.swift; sourceTree = "<group>"; };
+		4541D0ED19B46E280090C7E9 /* RangeSlider.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RangeSlider.swift; sourceTree = "<group>"; };
+		4591C443199C939A002F7EF7 /* MyPlayground.playground */ = {isa = PBXFileReference; lastKnownFileType = file.playground; path = MyPlayground.playground; sourceTree = "<group>"; };
 		45B561B61993614F00612602 /* CirActivityIndicatorView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CirActivityIndicatorView.swift; sourceTree = "<group>"; };
 		45C384CF19987594002F8E6A /* ViewController2.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ViewController2.swift; sourceTree = "<group>"; };
 		45C384D11998910B002F8E6A /* MenuCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
@@ -60,6 +66,9 @@
 		45C384D719989158002F8E6A /* 2Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 2Normal.png; sourceTree = "<group>"; };
 		45C384D819989158002F8E6A /* 3HighLight.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3HighLight.png; sourceTree = "<group>"; };
 		45C384D919989158002F8E6A /* 3Normal.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = 3Normal.png; sourceTree = "<group>"; };
+		45CB0C1D1999A931005D9A1E /* demo_1.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_1.jpg; sourceTree = "<group>"; };
+		45CB0C1E1999A931005D9A1E /* demo_2.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_2.jpg; sourceTree = "<group>"; };
+		45CB0C1F1999A931005D9A1E /* demo_3.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = demo_3.jpg; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +92,7 @@
 		45108E1D1992135500C54C3D = {
 			isa = PBXGroup;
 			children = (
+				4591C443199C939A002F7EF7 /* MyPlayground.playground */,
 				45108E281992135500C54C3D /* SwiftStudyiOS */,
 				45108E3B1992135600C54C3D /* SwiftStudyiOSTests */,
 				45108E271992135500C54C3D /* Products */,
@@ -106,6 +116,7 @@
 				4536AC90199314A800B0B548 /* LoadingCircle.swift */,
 				45B561B61993614F00612602 /* CirActivityIndicatorView.swift */,
 				450A765B19946DB300BA3AA0 /* CustomAlertView.swift */,
+				4541D0ED19B46E280090C7E9 /* RangeSlider.swift */,
 				45C384D11998910B002F8E6A /* MenuCell.swift */,
 				45108E2B1992135600C54C3D /* AppDelegate.swift */,
 				45108E2D1992135600C54C3D /* ViewController.swift */,
@@ -146,6 +157,9 @@
 		45C384D319989158002F8E6A /* image */ = {
 			isa = PBXGroup;
 			children = (
+				45CB0C1D1999A931005D9A1E /* demo_1.jpg */,
+				45CB0C1E1999A931005D9A1E /* demo_2.jpg */,
+				45CB0C1F1999A931005D9A1E /* demo_3.jpg */,
 				45C384D419989158002F8E6A /* 1HighLight.png */,
 				45C384D519989158002F8E6A /* 1Normal.png */,
 				45C384D619989158002F8E6A /* 2HighLight.png */,
@@ -239,9 +253,12 @@
 				45C384DB19989158002F8E6A /* 1Normal.png in Resources */,
 				45108E331992135600C54C3D /* Images.xcassets in Resources */,
 				45C384DF19989158002F8E6A /* 3Normal.png in Resources */,
+				45CB0C211999A931005D9A1E /* demo_2.jpg in Resources */,
 				45C384DA19989158002F8E6A /* 1HighLight.png in Resources */,
 				45C384DD19989158002F8E6A /* 2Normal.png in Resources */,
 				450A765E1994B1E500BA3AA0 /* TestView .xib in Resources */,
+				45CB0C221999A931005D9A1E /* demo_3.jpg in Resources */,
+				45CB0C201999A931005D9A1E /* demo_1.jpg in Resources */,
 				45C384DE19989158002F8E6A /* 3HighLight.png in Resources */,
 				45C384DC19989158002F8E6A /* 2HighLight.png in Resources */,
 			);
@@ -267,6 +284,7 @@
 				450A765C19946DB300BA3AA0 /* CustomAlertView.swift in Sources */,
 				452FEB791992252C00EB88E1 /* TopMessageView.swift in Sources */,
 				45108E2E1992135600C54C3D /* ViewController.swift in Sources */,
+				4541D0EE19B46E280090C7E9 /* RangeSlider.swift in Sources */,
 				4536AC91199314A800B0B548 /* LoadingCircle.swift in Sources */,
 				45B561B71993614F00612602 /* CirActivityIndicatorView.swift in Sources */,
 				45108E2C1992135600C54C3D /* AppDelegate.swift in Sources */,
@@ -374,6 +392,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: shu qiong (9TD7WR4AWC)";
 				INFOPLIST_FILE = SwiftStudyiOS/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";

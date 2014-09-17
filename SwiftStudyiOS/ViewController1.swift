@@ -24,6 +24,12 @@ class ViewController1: UIViewController, CustomAlertViewDelegate {
         button.addTarget(self, action: "showAlertView", forControlEvents: .TouchUpInside)
         self.view.addSubview(button)        
         
+        let button1 = UIButton.buttonWithType(.System) as UIButton
+        button1.frame = CGRectMake(100, 100, 120, 40)
+        button1.setTitle("next", forState: .Normal)
+        button1.addTarget(self, action: "pushViewController", forControlEvents: .TouchUpInside)
+        self.view.addSubview(button1)
+        
 //        var seconds = 0.0
 //        let frac = modf(NSDate().timeIntervalSince1970, &seconds)
 //        
@@ -42,9 +48,13 @@ class ViewController1: UIViewController, CustomAlertViewDelegate {
         customeAlertView.show()
     }
     
-    func customAlertView(alertView: CustomAlertView, clickedButtonAtIndex index: Int) {
-        println("clickedbutton at index: \(index)")
+    func pushViewController() {
         let viewcontroller = ViewController2()
         self.navigationController.pushViewController(viewcontroller, animated: true)
+    }
+    
+    func customAlertView(alertView: CustomAlertView, clickedButtonAtIndex index: Int) {
+        println("clickedbutton at index: \(index)")
+
     }
 }
